@@ -8,6 +8,7 @@ require (
 	github.com/jackc/pgx/v5 v5.8.0
 	github.com/jmoiron/sqlx v1.4.0
 	github.com/stretchr/testify v1.11.1
+	github.com/vgarvardt/go-pg-adapter v1.1.0
 	github.com/vgarvardt/pgx-helpers v0.0.0-20190703163610-cbb413594454
 	github.com/vgarvardt/pgx-helpers/v4 v4.2.0
 )
