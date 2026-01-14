@@ -45,8 +45,8 @@ The package bundles the following adapter implementations:
 - [`github.com/jmoiron/sqlx.DB`] - `github.com/vgarvardt/go-pg-adapter/sqladapter.NewX()`
 - [`github.com/jackc/pgx.Conn`] (pgx v3) - `github.com/vgarvardt/go-pg-adapter/pgx3adapter.NewConn()`
 - [`github.com/jackc/pgx.ConnPool`] (pgx v3) - `github.com/vgarvardt/go-pg-adapter/pgx3adapter.NewConnPool()`
-- [`github.com/jackc/pgx/v4.Conn`] (pgx v4) - `github.com/vgarvardt/go-pg-adapter/pgx4adapter.NewConn()`
-- [`github.com/jackc/pgx/v4/pgxpool.Pool`] (pgx v4) - `github.com/vgarvardt/go-pg-adapter/pgx4adapter.NewPool()`
+- [`github.com/jackc/pgx/v5.Conn`] (pgx v4) - `github.com/vgarvardt/go-pg-adapter/pgx4adapter.NewConn()`
+- [`github.com/jackc/pgx/v5/pgxpool.Pool`] (pgx v4) - `github.com/vgarvardt/go-pg-adapter/pgx4adapter.NewPool()`
 
 ## MIT License
 
@@ -57,5 +57,5 @@ Copyright (c) 2020 Vladimir Garvardt
 [`github.com/jmoiron/sqlx.DB`]: https://github.com/jmoiron/sqlx
 [`github.com/jackc/pgx.Conn`]: https://github.com/jackc/pgx
 [`github.com/jackc/pgx.ConnPool`]: https://github.com/jackc/pgx
-[`github.com/jackc/pgx/v4.Conn`]: https://github.com/jackc/pgx
-[`github.com/jackc/pgx/v4/pgxpool.Pool`]: https://github.com/jackc/pgx
+[`github.com/jackc/pgx/v5.Conn`]: https://github.com/jackc/pgx
+[`github.com/jackc/pgx/v5/pgxpool.Pool`]: https://github.com/jackc/pgx
