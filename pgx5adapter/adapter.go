@@ -5,9 +5,9 @@ import (
 
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
-	pgxHelpers "github.com/vgarvardt/pgx-helpers/v4"
+	pgxHelpers "github.com/vgarvardt/pgx-helpers/v5"
 
-	pgAdapter "github.com/vgarvardt/go-pg-adapter"
+	pgAdapter "github.com/vgarvardt/go-pg-adapter/v5"
 )
 
 // Pool is the adapter type for PGx pool connection type

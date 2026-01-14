@@ -11,6 +11,13 @@ require (
 	github.com/vgarvardt/go-pg-adapter v1.1.0
 	github.com/vgarvardt/pgx-helpers v0.0.0-20190703163610-cbb413594454
 	github.com/vgarvardt/pgx-helpers/v4 v4.2.0
+	github.com/vgarvardt/pgx-helpers/v5 v5.0.1
+)
+
+replace (
+	github.com/vgarvardt/go-oauth2-pg/v5 => github.com/manmohanbishnoi/go-oauth2-pg/v5 v5.0.1
+	github.com/vgarvardt/go-pg-adapter/v5 => github.com/manmohanbishnoi/go-pg-adapter/v5 v5.0.2
+	github.com/vgarvardt/pgx-helpers/v5 => github.com/manmohanbishnoi/pgx-helpers/v5 v5.0.1
 )
 
 require (
@@ -26,7 +33,6 @@ require (
 	github.com/jackc/puddle/v2 v2.2.2 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/rogpeppe/go-internal v1.14.1 // indirect
 	golang.org/x/crypto v0.32.0 // indirect
 	golang.org/x/sync v0.17.0 // indirect
 	golang.org/x/text v0.29.0 // indirect
