@@ -16,7 +16,7 @@ require (
 
 replace (
 	github.com/vgarvardt/go-oauth2-pg/v5 => github.com/manmohanbishnoi/go-oauth2-pg/v5 v5.0.1
-	github.com/vgarvardt/go-pg-adapter/v5 => github.com/manmohanbishnoi/go-pg-adapter/v5 v5.0.2
+	github.com/vgarvardt/go-pg-adapter/v5 => github.com/manmohanbishnoi/go-pg-adapter/v5 v5.0.3
 	github.com/vgarvardt/pgx-helpers/v5 => github.com/manmohanbishnoi/pgx-helpers/v5 v5.0.1
 )
 
