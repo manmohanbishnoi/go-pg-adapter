@@ -1,4 +1,4 @@
-module github.com/vgarvardt/go-pg-adapter
+module github.com/vgarvardt/go-pg-adapter/v5
 
 go 1.25.0
 
